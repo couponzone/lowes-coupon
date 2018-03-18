@@ -15,7 +15,7 @@ from random import randint
 #master = "0601"
 
 def code_gen():
-    master_set = {'10% off': '0603', 'Get 10$ off for 50$ purchase': '0289', 'Get 20$ off for 100$ purchase': '0668'}
+    master_set = {'10% off': '0603', 'Get 10$ off 50$ purchase': '0289', 'Get 20$ off 100$ purchase': '0668', '20% off in-store or selective items': '0084'}
     code_set = {}
     for key, master in master_set.items():
         code_list = code_gen_master(master)
